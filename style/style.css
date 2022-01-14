@@ -21,7 +21,7 @@ body{
     background-color: #ffccbc;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .profile{
@@ -56,14 +56,24 @@ h3 span {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    margin: 20px;
-    width: 100%;
+    margin-top: 20px;
+    width: 120%;
+    position: relative;
 }
 .menu::before{
     content: '';
-    background-color: blue;
+    background: #fff;
     width: 20px;
     height: 20px;
+    position: absolute;
+    top: -10px;
+    right: 45px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+
 }
 .menu img{
     width: 30px;
@@ -91,3 +101,4 @@ ul li {
 ul li img{
     margin: 10px;
 }
+
