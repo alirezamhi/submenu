@@ -22,7 +22,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
+
+.submenu{
+    transform: translateX(40px);
+    -webkit-transform: translateX(40px);
+    -moz-transform: translateX(40px);
+    -ms-transform: translateX(40px);
+    -o-transform: translateX(40px);
+}   
 
 .profile{
     width: 120px;
@@ -43,8 +52,7 @@ body{
 }
 h3{
     text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
+    padding: 20px 0px 20px 0px;
 }
 h3 span {
     color: rgba(43, 43, 43, 0.671);
@@ -57,7 +65,7 @@ h3 span {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     margin-top: 20px;
-    width: 120%;
+    width: 150%;
     position: relative;
 }
 .menu::before{
