@@ -1,0 +1,93 @@
+@font-face {
+	font-family: 'Yekan';
+	src:	url('./Yekan-Font-master/'); /* IE9 Compat Modes */
+	src:	url('./Yekan-Font-master/?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/Yekan-Font-master/Yekan.woff2') format('woff2'), /* Modern Browsers */
+			url('/Yekan-Font-master/Yekan.woff') format('woff'), /* Modern Browsers */
+			url('/Yekan-Font-master/Yekan.otf') format('opentype'), /* Open Type Font */	
+			url('/Yekan-Font-master/Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Yekan ;
+    direction: rtl;
+    background-color: #ffccbc;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.profile{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+    
+}
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+h3{
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+h3 span {
+    color: rgba(43, 43, 43, 0.671);
+}
+.menu{
+    background-color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 20px;
+    width: 100%;
+}
+.menu::before{
+    content: '';
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+}
+.menu img{
+    width: 30px;
+    opacity: .8;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+ul li {
+    display: flex;
+    align-items: center;
+}
+ul li img{
+    margin: 10px;
+}
